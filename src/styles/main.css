@@ -1,2 +1,10 @@
 @import "tailwindcss";
+@import '@fontsource-variable/playfair-display';
 
+@theme {
+
+}
+
+body {
+    font-family: 'Playfair Display Variable', serif;
+  }
