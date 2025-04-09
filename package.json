@@ -14,6 +14,7 @@
     "vituum": "^1.1.1"
   },
   "dependencies": {
+    "@fontsource-variable/cinzel": "^5.2.5",
     "@tailwindcss/vite": "^4.1.1",
     "tailwindcss": "^4.1.1"
   }
