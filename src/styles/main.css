@@ -1,10 +1,21 @@
 @import "tailwindcss";
-@import '@fontsource-variable/playfair-display';
+@import '@fontsource-variable/cinzel';
+@plugin "@iconify/tailwind4";
 
 @theme {
-
+    --color-deco-50: #f9fbea;
+    --color-deco-100: #f0f6d1;
+    --color-deco-200: #ddeb9d;
+    --color-deco-300: #cbe076;
+    --color-deco-400: #b4d04b;
+    --color-deco-500: #96b52d;
+    --color-deco-600: #759020;
+    --color-deco-700: #596e1d;
+    --color-deco-800: #48581c;
+    --color-deco-900: #3d4b1c;
+    --color-deco-950: #1f290a;    
 }
 
 body {
-    font-family: 'Playfair Display Variable', serif;
-  }
+    font-family: 'Cinzel Variable', serif;
+}
