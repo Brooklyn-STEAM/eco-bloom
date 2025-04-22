@@ -6,10 +6,8 @@
     <link rel="stylesheet" href="/src/styles/main.css">
     <title>My Project</title>
 </head>
-<body class="bg-deco-200 text-center">
-    <div class="flex justify-center items-center h-screen">
-        <img src="/src/assets/eco_bloom_logo.png" alt="EcoBloom Logo" class="w-1/3 h-auto mb-4">
-    </div>
+<body class="bg-deco-200 text-center container m-auto">
+    
 <h1 class="text-3xl text-deco-800 font-semibold text-center">
 Feedback Form
 </h1>
@@ -46,98 +44,102 @@ Feedback Form
      <br>
      <br>
      <br>
-     <h1 class="text-end bg-deco-300 rounded-3xl">
-      Strongly Agree
-       Agree
-       Neutral
-        Strongly disagree
+     <h1 class="grid grid-cols-1 gap-2 text-center bg-deco-300 rounded-3xl font-medium">
+      The following boxes go from
+      Strongly Agree,
+       Agree,
+       Neutral,
+        Strongly disagree,
+        and
         disagree
      </h1>
      <br>
     <div class="grid grid-cols-3 gap-2">
      <div class=" bg-deco-50 text-deco-600 col-span-2 p-3 rounded"> I feel satisfied with This website function </div> 
     <div class=" bg-deco-300 text-deco-600 p-3 rounded"> 
-      <input type="checkbox" id="Strongly Agree" name="Strongly Agree" value="website function"> <input type="checkbox" id="Agree" name="Agree" value="website function">
-      <input type="checkbox" id="  Neutral" name="Neutral" value="website function">
-      <input type="checkbox" id="Disagree" name="Disagree" value="website function">
-      <input type="checkbox" id="Strongly disagree" name="Strongly disagree" value="website function">  </div>
+      <input type="checkbox" id="Strongly_Agree" name="website function" value="Strongly_Agree"> 
+      <input type="checkbox" id="Agree" name="website function" value="Agree">
+      <input type="checkbox" id="Neutral" name="website function" value="Neutral">
+      <input type="checkbox" id="Disagree" name="website function" value="disagree">
+      <input type="checkbox" id="Strongly_disagree" name="website function" value="Strongly_disagree">  </div>
     
       <div class=" bg-deco-50 text-deco-600 col-span-2 p-3 rounded"> I found the website easy to navigate </div> 
     <div class=" bg-deco-300 text-deco-600 p-3 rounded"> 
-      <input type="checkbox" id=" Strongly Agree" name="Strongly Agree" value="navigation">
-       <input type="checkbox" id=" Agree" name="Agree" value="navigation">
-      <input type="checkbox"id="  Neutral" name="Neutral" value="navigation">
-      <input type="checkbox" id=" Disagree" name="Disagree" value="navigation">
-      <input type="checkbox" id=" Strongly disagree" name="Strongly disagree" value="navigation">  </div>
+      <input type="checkbox" id="Strongly_Agree" name="navigation" value="Strongly_Agree">
+       <input type="checkbox" id="Agree" name="navigation" value="Agree">
+      <input type="checkbox"id="Neutral" name="navigation" value="Neutral">
+      <input type="checkbox" id="Disagree" name="navigation" value="Disagree">
+      <input type="checkbox" id="Strongly_disagree" name="navigation" value="Strongly_disagree">  </div>
     
       <div class=" bg-deco-50 text-deco-600 col-span-2 p-3 rounded"> The information on the website was clear and easy to understand </div> 
       <div class=" bg-deco-300 text-deco-600 p-3 rounded">
-       <input type="checkbox"id=" Strongly Agree" name="Strongly Agree" value="website content easy to understand reddit"> 
-       <input type="checkbox"id=" Agree" name="Agree" value="website content easy to understand reddit">
-        <input type="checkbox"id="  Neutral" name="Neutral" value="website content easy to understand reddit">
-        <input type="checkbox"id="Disagree" name="Disagree" value="website content easy to understand reddit">
-        <input type="checkbox"id="Strongly disagree" name="Strongly disagree" value="website content easy to understand reddit">  </div>
+       <input type="checkbox"id="Strongly_Agree" name="website_content_easy_to_understand_reddit" value="Strongly_Agree"> 
+       <input type="checkbox"id="Agree" name="website_content_easy_to_understand_reddit" value="Agree">
+        <input type="checkbox"id="Neutral" name="website_content_easy_to_understand_reddit" value="Neutral">
+        <input type="checkbox"id="Disagree" name="website_content_easy_to_understand_reddit" value="Disagree">
+        <input type="checkbox"id="Strongly_disagree" name="website_content_easy_to_understand_reddit" value="Strongly_disagree">  </div>
     
     
         <div class=" bg-deco-50 text-deco-600 col-span-2 p-3 rounded"> I was able to find what I was looking for on the website </div> 
         <div class=" bg-deco-300 text-deco-600 p-3 rounded"> 
-          <input type="checkbox"id=" Strongly Agree" name="Strongly Agree" value=""> 
-          <input type="checkbox" id=" Agree" name="Agree" value="customers were able to find what they needed">
-          <input type="checkbox"id="  Neutral" name="Neutral" value="customers were able to find what they needed">
-          <input type="checkbox" id=" Disagree" name="Disagree" value="customers were able to find what they needed">
-          <input type="checkbox" id=" Strongly disagree" name="Strongly disagree" value="customers were able to find what they needed">  </div>
+          <input type="checkbox"id="Strongly_Agree" name="customers_were_able_to_find_what_they_needed" value="Strongly_Agree"> 
+          <input type="checkbox" id="Agree" name="customers_were_able_to_find_what_they_needed" value="Agree">
+          <input type="checkbox"id="Neutral" name="customers_were_able_to_find_what_they_needed" value="Neutral">
+          <input type="checkbox" id="Disagree" name="customers_were_able_to_find_what_they_needed" value="Disagree">
+          <input type="checkbox" id="Strongly disagree" name="customers_were_able_to_find_what_they_needed" value="Strongly_disagree">  </div>
 
           <div class=" bg-deco-50 text-deco-600 col-span-2 p-3 rounded"> The website's design is appealing and professional </div> 
           <div class=" bg-deco-300 text-deco-600 p-3 rounded"> 
-            <input type="checkbox" id=" Strongly Agree" name="Strongly Agree" value="website's design is appealing"> 
-            <input type="checkbox" id="Agree" name="Agree" value="website's design is appealing">
-            <input type="checkbox" id="  Neutral" name="Neutral" value="website's design is appealing">
-            <input type="checkbox" id=" Disagree" name="Disagree" value="website's design is appealing">
-            <input type="checkbox" id=" Strongly disagree" name="Strongly disagree" value="website's design is appealing">  </div>
+            <input type="checkbox" id="Strongly_Agree" name="website's_design_is_appealing" value="Strongly_Agree"> 
+            <input type="checkbox" id="Agree" name="website's_design_is_appealing" value="Agree">
+            <input type="checkbox" id="Neutral" name="website's_design_is_appealing" value="Neutral">
+            <input type="checkbox" id="Disagree" name="website's_design_is_appealing" value="Disagree">
+            <input type="checkbox" id="Strongly_disagree" name="website's_design_is_appealing" value="Strongly_disagree">  </div>
 
             <div class=" bg-deco-50 text-deco-600 col-span-2 p-3 rounded"> The checkout process was easy and straightforward </div> 
           <div class=" bg-deco-300 text-deco-600 p-3 rounded">
-            <input type="checkbox" id=" Strongly Agree" name="Strongly Agree" value="straightforward checkout process"> 
-            <input type="checkbox" id=" Agree" name="Agree" value="straightforward checkout process">
-            <input type="checkbox" id="  Neutral" name="Neutral" value="straightforward checkout process">
-            <input type="checkbox" id=" Disagree" name="Disagree" value="straightforward checkout process">
-            <input type="checkbox" id=" Strongly disagree" name="Strongly disagree" value="straightforward checkout process">  </div>
+            <input type="checkbox" id="Strongly_Agree" name="straightforward_checkout_process" value="Strongly_Agree"> 
+            <input type="checkbox" id="Agree" name="straightforward_checkout_process" value="Agree">
+            <input type="checkbox" id="Neutral" name="straightforward_checkout_process" value="Neutral">
+            <input type="checkbox" id="Disagree" name="straightforward_checkout_process" value="Disagree">
+            <input type="checkbox" id="Strongly_disagree" name="straightforward_checkout_process" value="Strongly_disagree">  </div>
 
             <div class=" bg-deco-50 text-deco-600 col-span-2 p-3 rounded"> I would recommend this website/business to others </div> 
           <div class=" bg-deco-300 text-deco-600 p-3 rounded">
-            <input type="checkbox" id=" Strongly Agree" name="Strongly Agree" value=" would recommend business"> 
-            <input type="checkbox" id=" Agree" name="Agree" value="would recommend business">
-            <input type="checkbox" id="  Neutral" name="Neutral" value="would recommend business">
-            <input type="checkbox" id=" Disagree" name="Disagree" value="would recommend business">
-            <input type="checkbox" id=" Strongly disagree" name="Strongly disagree" value="would recommend business">  </div>
+            <input type="checkbox" id="Strongly_Agree" name="would_recommend_business" value="Strongly_Agree"> 
+            <input type="checkbox" id="Agree" name="would_recommend_business" value="Agree">
+            <input type="checkbox" id="Neutral" name="would_recommend_business" value="Neutral">
+            <input type="checkbox" id="Disagree" name="would_recommend_business" value="Disagree">
+            <input type="checkbox" id="Strongly_disagree" name="would_recommend_business" value="Strongly_disagree">  </div>
 
             <div class=" bg-deco-50 text-deco-600 col-span-2 p-3 rounded"> I had an easy time signing up for the programs and enjoyed the time I spent </div> 
           <div class=" bg-deco-300 text-deco-600 p-3 rounded">
-            <input type="checkbox" id=" Strongly Agree" name="Strongly Agree" value=" programs accessibility "> 
-            <input type="checkbox" id=" Agree" name="Agree" value="programs accessibility">
-            <input type="checkbox" id="  Neutral" name="Neutral" value="programs accessibility">
-            <input type="checkbox" id=" Disagree" name="Disagree" value="programs accessibility">
-            <input type="checkbox" id=" Strongly disagree" name="Strongly disagree" value="programs accessibility">  </div>
+            <input type="checkbox" id="Strongly_Agree" name="programs_accessibility" value="Strongly_Agree"> 
+            <input type="checkbox" id="Agree" name="programs_accessibility" value="Agree">
+            <input type="checkbox" id="Neutral" name="programs_accessibility" value="Neutral">
+            <input type="checkbox" id="Disagree" name="programs_accessibility" value="Disagree">
+            <input type="checkbox" id="Strongly_disagree" name="programs_accessibility" value="Strongly_disagree">  </div>
 
             <div class=" bg-deco-50 text-deco-600 col-span-2 p-3 rounded"> The price was very reasonable and I did not have any complaints</div> 
           <div class=" bg-deco-300 text-deco-600 p-3 rounded">
-            <input type="checkbox" id=" Strongly Agree" name="Strongly Agree" value=" reasonable price "> 
-            <input type="checkbox" id=" Agree" name="Agree" value="reasonable price">
-            <input type="checkbox" id="  Neutral" name="Neutral" value="reasonable price">
-            <input type="checkbox" id=" Disagree" name="Disagree" value="reasonable price">
-            <input type="checkbox" id=" Strongly disagree" name="Strongly disagree" value="reasonable price">  </div>
+            <input type="checkbox" id="Strongly_Agree" name="reasonable_price" value="Strongly_Agree"> 
+            <input type="checkbox" id="Agree" name="reasonable_price" value="Agree">
+            <input type="checkbox" id="Neutral" name="reasonable_price" value="Neutral">
+            <input type="checkbox" id="Disagree" name="reasonable_price" value="Disagree">
+            <input type="checkbox" id="Strongly_disagree" name="reasonable_price" value="Strongly_disagree">  </div>
 
             <div class=" bg-deco-50 text-deco-600 col-span-2 p-3 rounded"> I enjoyed the overall shopping experience and would definitely come back to shop and or participate in any programs at EcoBloom's website once more </div> 
           <div class=" bg-deco-300 text-deco-600 p-3 rounded">
-            <input  type="checkbox" id=" Strongly Agree" name="Strongly Agree" value=" returning customers "> 
-            <input type="checkbox" id=" Agree" name="Agree" value="returning customers">
-            <input type="checkbox" id="  Neutral" name="Neutral" value="returning customers">
-            <input type="checkbox" id=" Disagree" name="Disagree" value="returning customers">
-            <input type="checkbox" id=" Strongly disagree" name="Strongly disagree" value="returning customers">  </div>
+            <input  type="checkbox" id="Strongly_Agree" name="returning_customers" value="Strongly_Agree"> 
+            <input type="checkbox" id="Agree" name="returning_customers" value="Agree">
+            <input type="checkbox" id="Neutral" name="returning_customers" value="Neutral">
+            <input type="checkbox" id="Disagree" name="returning_customers" value="Disagree">
+            <input type="checkbox" id="Strongly_disagree" name="returning_customers" value="Strongly_disagree">  </div>
 
-            <button class="bg-transparent hover:bg-deco-800 text-deco-700 font-semibold hover:text-white py-2 px-4 border border-deco-500 hover:border-transparent rounded">
-              Button
+            <button class="justify-center bg-transparent hover:bg-deco-800 text-deco-700 font-semibold hover:text-white py-2 px-4 border border-deco-500 hover:border-transparent rounded ">
+              submit
             </button>
+          
 
 
 
