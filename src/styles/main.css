@@ -21,11 +21,14 @@ body {
   }
 
   ul{
+    
+    display: flex;
+    justify-content: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: green;
+    background-color:  #b4d04b;
   }
 
   li{
@@ -41,5 +44,5 @@ body {
   }
 
   li a:hover {
-    background-color: blue;
+    background-color: #96b52d;
   }
