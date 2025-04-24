@@ -4,6 +4,7 @@
 
 body {
     font-family: 'Cinzel Variable', serif;
+    background-color:#ddeb9d;
   }
 
   @theme{
@@ -20,4 +21,6 @@ body {
     --color-deco-950: #1f290a;
 
 }
+
+
 
