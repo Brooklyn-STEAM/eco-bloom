@@ -43,3 +43,33 @@ body {
   li a:hover {
     background-color: blue;
   }
+
+
+  header {
+    background: #4caf50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  .event {
+    background: white;
+    border-left: 5px solid #4caf50;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  .event h2 {
+    margin-top: 0;
+  }
+  .event time {
+    display: block;
+    font-weight: bold;
+    color: #2e7d32;
+  }
+  footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    color: #555;
+  }
