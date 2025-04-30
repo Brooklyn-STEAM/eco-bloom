@@ -21,6 +21,34 @@ body {
     --color-deco-900: #3d4b1c;
     --color-deco-950: #1f290a;
 
+    --color-holly-50: #eefbf5;
+--color-holly-100: #d6f5e6;
+--color-holly-200: #b1e9d1;
+--color-holly-300: #7dd8b7;
+--color-holly-400: #48bf99;
+--color-holly-500: #25a47f;
+--color-holly-600: #178466;
+--color-holly-700: #136954;
+--color-holly-800: #115444;
+--color-holly-900: #0f4539;
+--color-holly-950: #07251f;
+
+--color-peppermint-50: #eaf9e1;
+--color-peppermint-100: #dff5d2;
+--color-peppermint-200: #c0ecaa;
+--color-peppermint-300: #98de78;
+--color-peppermint-400: #74ce4d;
+--color-peppermint-500: #55b32f;
+--color-peppermint-600: #3e8e22;
+--color-peppermint-700: #326d1e;
+--color-peppermint-800: #2b571d;
+--color-peppermint-900: #274a1d;
+--color-peppermint-950: #11280b;
+
+
+
+
+
 }
 
 .typcn--arrow-right-outline {
