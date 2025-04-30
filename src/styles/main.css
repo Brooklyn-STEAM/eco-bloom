@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import '@fontsource-variable/playfair-display';
+@plugin "@iconify/tailwind4";
 
 @theme{
     --color-deco-50: #f9fbea;
@@ -42,4 +43,14 @@ body {
 
   li a:hover {
     background-color: blue;
+  }
+  .bottom-left-image {
+    position: relative;
+    bottom: 0;        
+    left: 0;        
+  }
+  .top-right-image {
+    position: relative;
+    top: 0;        
+    right: 0;         
   }
