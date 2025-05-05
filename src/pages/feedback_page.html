@@ -5,9 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/src/styles/main.css">
     <title>My Project</title>
+
+    <div>
+      <include src="components/navbar.html"></include>
+    </div>
 </head>
+
+
+
+
 <body class="bg-deco-200 text-center container m-auto">
-    
 <h1 class="text-3xl text-deco-800 font-semibold text-center">
 Feedback Form
 </h1>
@@ -135,8 +142,13 @@ Feedback Form
             <input type="checkbox" id="Neutral" name="returning_customers" value="Neutral">
             <input type="checkbox" id="Disagree" name="returning_customers" value="Disagree">
             <input type="checkbox" id="Strongly_disagree" name="returning_customers" value="Strongly_disagree">  </div>
+            <br>
+            <br>
+            <br>
+<textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-deco-900 bg-deco-50 rounded-lg  border dark:border-deco-600 dark:placeholder-deco-400dark:focus:border-deco-500" placeholder="Write your thoughts here..."></textarea>
+<br>
 
-            <button class="justify-center bg-transparent hover:bg-deco-800 text-deco-700 font-semibold hover:text-white py-2 px-4 border border-deco-500 hover:border-transparent rounded ">
+            <button class="bg-transparent hover:bg-deco-800 text-deco-700 font-semibold hover:text-white py-2 px-4 border border-deco-500 hover:border-transparent rounded">
               submit
             </button>
           

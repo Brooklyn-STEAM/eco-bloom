@@ -6,21 +6,69 @@
     <link rel="stylesheet" href="/src/styles/main.css">
     <title>Home Page</title>
 </head>
-<body>
-    <div class="navbar"></div>
-    <nav>
-        <ul>
-            <li><a href="index.hmtl">Home Page</a></li>
-            <li><a href="contacts.html">Contacts</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="programs.html">Programs</a></li>
-            <li><a href="feedback.html">FeedBack</a></li>
-        </ul>
-    </nav>
-    <h1 class="text-center text-5xl font-bold my-12 text-green-800 underline decoration-green-400 decoration-4 underline-offset-8">Welcome to Eco Bloom's Website!</h1>
+<body class="bg-deco-200 text-center container m-auto">
+<div>
+    <include src="components/navbar.html"></include>
+    <h1 class="text-center text-5xl font-bold my-12 text-deco-800 decoration-4 underline-offset-8">Welcome to Eco Bloom's Website</h1>
+</div>
+
+<div class="grid grid-cols-2 gap-2">
+    <h2 class="text-black text-3xl" >What do we do?</h2>
 
 
-    <include src="components/bloom_logo.html"></include>
+    <h2 class="text-black text-3xl">What's our mission?</h2>
+
+
+    <p class="text-deco-600 text-2xl rounded-lg border-7 border-deco-800 "  >
+        The world produces around 350 million tonnes
+        of plastic waste each year and the number of
+        waste is only expected to grow even higher as
+        the years come. Many people have attempted
+        to solve the issue from only recycling and
+        boycotting but its not too hard to forget that
+        upcycling and reusing are a great way of
+        attempting to fix the amount of plastic waste
+        we produce. At Eco Bloom we use all plastic
+        waste from your area to upcycle, turning your
+        plastic water bottle into a cute bracelet or
+        earings</p>
+
+   <p class="text-deco-600 text-2xl rounded-lg border-7 border-deco-800">New York City produces around 44 million pounds of garbage every
+day, and while waste is a citywide issue, not all neighborhoods are
+treated equally. Some areas tend to have better sanitation services,
+while low-income communities — often Black and Brown
+neighborhoods like Hunts Point, Longwood, and Melrose in the
+Bronx, where nearly 29% of residents live below the poverty line —
+face higher levels of trash, fewer resources, and long-standing
+neglect.
+
+Eco Bloom's mission is to reduce plastic waste in
+New York by 25% within our first year of business,
+starting with these underserved areas. Through
+upcycling locally collected trash, we aim to turn
+waste into opportunity — creating jobs, cleaner
+streets, and a model for sustainable change
+rooted in environmental justice.
+</p> 
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="flex flex-row gap-30">
+    <div>
+        <h1 class="text-5xl text-deco-800">BEFORE</h1>
+    <img src="/src/assets/dirty.png" class="rounded-4xl w-[450px]"> 
+</div>
+    <span class="icon-[typcn--arrow-right-outline] size-80 text-deco-800"></span>
+<div>
+    <h1 class="text-5xl text-deco-800">AFTER</h1>
+    <img src="/src/assets/clean.png" class="rounded-4xl w-[450px]">
+</div>
+
+</div>
+
 </body>
 
 </html>
