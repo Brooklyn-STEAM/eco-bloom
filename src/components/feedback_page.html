@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/styles/main.css">
+    <title>My Project</title>
+
+    <div>
+      <include src="components/navbar.html"></include>
+    </div>
+</head>
+
+
+
+
+<body class="bg-deco-200 text-center container m-auto">
+<h1 class="text-3xl text-deco-800 font-semibold text-center">
+Feedback Form
+</h1>
+<hr>
+<p class="text-center text-deco-600 ">
+    Hello and welcome to all new users visiting EcoBloom's official website! As a small and recently established business, we anticipate encountering challenges along the way. Given the nature of our small operations, it becomes increasingly challenging to identify every potential issue that may arise on our website. This is where your valued contributions come into play! We encourage you, our users, to share any difficulties you face, suggestions for improvements, or general feedback about your experience on our website. Your feedback is incredibly important as it allows us to address any issues promptly and enhance your overall browsing and shopping experience. We sincerely appreciate the time you take to provide us with your valuable insights, making it possible for us to tailor our website to better suit your needs and ensure your comfort while interacting with our page. Thank you for your participation, and we look forward to continuously improving our services with your help!
+</p>
+<hr>
+    <form  
+    action="https://form-to-email.steam-center.workers.dev/"
+    method="post"
+   >
+   <input class=" text-deco-200" type="text" name="send-to" value="ANunez2@brooklynsteamcenter.org">
+   <br>
+     <label class=" text-deco-600 " for="fname">First name:</label><br>
+     <input  class="text-deco-600 bg-amber-50 rounded-2xl"      type="text"  name="first_name"><br>
+     <br>
+     <label class=" text-deco-600 " for="lname">Last name:</label><br>
+     <input class="text-deco-600 bg-amber-50 rounded-2xl" type="text" name="last_name"><br>
+     <br>
+     <label class=" text-deco-600 " for="fname">@gmail:</label><br>
+     <input class="text-deco-600 bg-amber-50 rounded-2xl" type="text" name="gmail"><br>
+     <br>
+      <label class=" text-deco-600 " for="fname">phone number:</label><br>
+      <input class="text-deco-600 bg-amber-50 rounded-2xl" type="tel" name="number"><br>
+    <br>
+      <label class=" text-deco-600 " for="fname">pronouns:</label><br>
+     <input class="text-deco-600 bg-amber-50 rounded-2xl" type="text"  name="pronouns"><br>
+     <br>
+     <hr>
+     <h1  class=" text-deco-800 text-2xl ">
+      Rate your experience with EcoBloom's website in each of the following categories, we would like to know your thoughts on the website and would appreciate your feedback
+     </h1>
+     <br>
+     <br>
+     <br>
+     <h1 class="grid grid-cols-1 gap-2 text-center bg-deco-300 rounded-3xl font-medium">
+      The following boxes go from
+      Strongly Agree,
+       Agree,
+       Neutral,
+        Strongly disagree,
+        and
+        disagree
+     </h1>
+     <br>
+    <div class="grid grid-cols-3 gap-2">
+     <div class=" bg-deco-50 text-deco-600 col-span-2 p-3 rounded"> I feel satisfied with This website function </div> 
+    <div class=" bg-deco-300 text-deco-600 p-3 rounded"> 
+      <input type="checkbox" id="Strongly_Agree" name="website function" value="Strongly_Agree"> 
+      <input type="checkbox" id="Agree" name="website function" value="Agree">
+      <input type="checkbox" id="Neutral" name="website function" value="Neutral">
+      <input type="checkbox" id="Disagree" name="website function" value="disagree">
+      <input type="checkbox" id="Strongly_disagree" name="website function" value="Strongly_disagree">  </div>
+    
+      <div class=" bg-deco-50 text-deco-600 col-span-2 p-3 rounded"> I found the website easy to navigate </div> 
+    <div class=" bg-deco-300 text-deco-600 p-3 rounded"> 
+      <input type="checkbox" id="Strongly_Agree" name="navigation" value="Strongly_Agree">
+       <input type="checkbox" id="Agree" name="navigation" value="Agree">
+      <input type="checkbox"id="Neutral" name="navigation" value="Neutral">
+      <input type="checkbox" id="Disagree" name="navigation" value="Disagree">
+      <input type="checkbox" id="Strongly_disagree" name="navigation" value="Strongly_disagree">  </div>
+    
+      <div class=" bg-deco-50 text-deco-600 col-span-2 p-3 rounded"> The information on the website was clear and easy to understand </div> 
+      <div class=" bg-deco-300 text-deco-600 p-3 rounded">
+       <input type="checkbox"id="Strongly_Agree" name="website_content_easy_to_understand_reddit" value="Strongly_Agree"> 
+       <input type="checkbox"id="Agree" name="website_content_easy_to_understand_reddit" value="Agree">
+        <input type="checkbox"id="Neutral" name="website_content_easy_to_understand_reddit" value="Neutral">
+        <input type="checkbox"id="Disagree" name="website_content_easy_to_understand_reddit" value="Disagree">
+        <input type="checkbox"id="Strongly_disagree" name="website_content_easy_to_understand_reddit" value="Strongly_disagree">  </div>
+    
+    
+        <div class=" bg-deco-50 text-deco-600 col-span-2 p-3 rounded"> I was able to find what I was looking for on the website </div> 
+        <div class=" bg-deco-300 text-deco-600 p-3 rounded"> 
+          <input type="checkbox"id="Strongly_Agree" name="customers_were_able_to_find_what_they_needed" value="Strongly_Agree"> 
+          <input type="checkbox" id="Agree" name="customers_were_able_to_find_what_they_needed" value="Agree">
+          <input type="checkbox"id="Neutral" name="customers_were_able_to_find_what_they_needed" value="Neutral">
+          <input type="checkbox" id="Disagree" name="customers_were_able_to_find_what_they_needed" value="Disagree">
+          <input type="checkbox" id="Strongly disagree" name="customers_were_able_to_find_what_they_needed" value="Strongly_disagree">  </div>
+
+          <div class=" bg-deco-50 text-deco-600 col-span-2 p-3 rounded"> The website's design is appealing and professional </div> 
+          <div class=" bg-deco-300 text-deco-600 p-3 rounded"> 
+            <input type="checkbox" id="Strongly_Agree" name="website's_design_is_appealing" value="Strongly_Agree"> 
+            <input type="checkbox" id="Agree" name="website's_design_is_appealing" value="Agree">
+            <input type="checkbox" id="Neutral" name="website's_design_is_appealing" value="Neutral">
+            <input type="checkbox" id="Disagree" name="website's_design_is_appealing" value="Disagree">
+            <input type="checkbox" id="Strongly_disagree" name="website's_design_is_appealing" value="Strongly_disagree">  </div>
+
+            <div class=" bg-deco-50 text-deco-600 col-span-2 p-3 rounded"> The checkout process was easy and straightforward </div> 
+          <div class=" bg-deco-300 text-deco-600 p-3 rounded">
+            <input type="checkbox" id="Strongly_Agree" name="straightforward_checkout_process" value="Strongly_Agree"> 
+            <input type="checkbox" id="Agree" name="straightforward_checkout_process" value="Agree">
+            <input type="checkbox" id="Neutral" name="straightforward_checkout_process" value="Neutral">
+            <input type="checkbox" id="Disagree" name="straightforward_checkout_process" value="Disagree">
+            <input type="checkbox" id="Strongly_disagree" name="straightforward_checkout_process" value="Strongly_disagree">  </div>
+
+            <div class=" bg-deco-50 text-deco-600 col-span-2 p-3 rounded"> I would recommend this website/business to others </div> 
+          <div class=" bg-deco-300 text-deco-600 p-3 rounded">
+            <input type="checkbox" id="Strongly_Agree" name="would_recommend_business" value="Strongly_Agree"> 
+            <input type="checkbox" id="Agree" name="would_recommend_business" value="Agree">
+            <input type="checkbox" id="Neutral" name="would_recommend_business" value="Neutral">
+            <input type="checkbox" id="Disagree" name="would_recommend_business" value="Disagree">
+            <input type="checkbox" id="Strongly_disagree" name="would_recommend_business" value="Strongly_disagree">  </div>
+
+            <div class=" bg-deco-50 text-deco-600 col-span-2 p-3 rounded"> I had an easy time signing up for the programs and enjoyed the time I spent </div> 
+          <div class=" bg-deco-300 text-deco-600 p-3 rounded">
+            <input type="checkbox" id="Strongly_Agree" name="programs_accessibility" value="Strongly_Agree"> 
+            <input type="checkbox" id="Agree" name="programs_accessibility" value="Agree">
+            <input type="checkbox" id="Neutral" name="programs_accessibility" value="Neutral">
+            <input type="checkbox" id="Disagree" name="programs_accessibility" value="Disagree">
+            <input type="checkbox" id="Strongly_disagree" name="programs_accessibility" value="Strongly_disagree">  </div>
+
+            <div class=" bg-deco-50 text-deco-600 col-span-2 p-3 rounded"> The price was very reasonable and I did not have any complaints</div> 
+          <div class=" bg-deco-300 text-deco-600 p-3 rounded">
+            <input type="checkbox" id="Strongly_Agree" name="reasonable_price" value="Strongly_Agree"> 
+            <input type="checkbox" id="Agree" name="reasonable_price" value="Agree">
+            <input type="checkbox" id="Neutral" name="reasonable_price" value="Neutral">
+            <input type="checkbox" id="Disagree" name="reasonable_price" value="Disagree">
+            <input type="checkbox" id="Strongly_disagree" name="reasonable_price" value="Strongly_disagree">  </div>
+
+            <div class=" bg-deco-50 text-deco-600 col-span-2 p-3 rounded"> I enjoyed the overall shopping experience and would definitely come back to shop and or participate in any programs at EcoBloom's website once more </div> 
+          <div class=" bg-deco-300 text-deco-600 p-3 rounded">
+            <input  type="checkbox" id="Strongly_Agree" name="returning_customers" value="Strongly_Agree"> 
+            <input type="checkbox" id="Agree" name="returning_customers" value="Agree">
+            <input type="checkbox" id="Neutral" name="returning_customers" value="Neutral">
+            <input type="checkbox" id="Disagree" name="returning_customers" value="Disagree">
+            <input type="checkbox" id="Strongly_disagree" name="returning_customers" value="Strongly_disagree">  </div>
+            <br>
+            <br>
+            <br>
+<textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-deco-900 bg-deco-50 rounded-lg  border dark:border-deco-600 dark:placeholder-deco-400dark:focus:border-deco-500" placeholder="Write your thoughts here..."></textarea>
+<br>
+
+            <button class="bg-transparent hover:bg-deco-800 text-deco-700 font-semibold hover:text-white py-2 px-4 border border-deco-500 hover:border-transparent rounded">
+              submit
+            </button>
+          
+
+
+
+            
+  
+    </div>
+    </form><form action=""></form>
+</body>
+</html>
