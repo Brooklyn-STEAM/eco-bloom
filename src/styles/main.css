@@ -64,3 +64,34 @@ body {
   -webkit-mask-size: 100% 100%;
   mask-size: 100% 100%;
 }
+
+body {
+    font-family: 'Playfair Display Variable', serif;
+  }
+
+  ul{
+    
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  #b4d04b;
+  }
+
+  li{
+    float: left;
+  }
+
+  li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #96b52d;
+  }
