@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/src/styles/main.css">
-    <title>My Project</title>
+    <title>Feedback</title>
 
     <div>
       <include src="components/navbar.html"></include>
@@ -15,14 +15,21 @@
 
 
 <body class="bg-deco-200 text-center container m-auto">
+
+    <br>
+    <br>
+    <div class="bg-deco-300  w-full ">
 <h1 class="text-3xl text-deco-800 font-semibold text-center">
 Feedback Form
 </h1>
 <hr>
 <p class="text-center text-deco-600 ">
-    Hello and welcome to all new users visiting EcoBloom's official website! As a small and recently established business, we anticipate encountering challenges along the way. Given the nature of our small operations, it becomes increasingly challenging to identify every potential issue that may arise on our website. This is where your valued contributions come into play! We encourage you, our users, to share any difficulties you face, suggestions for improvements, or general feedback about your experience on our website. Your feedback is incredibly important as it allows us to address any issues promptly and enhance your overall browsing and shopping experience. We sincerely appreciate the time you take to provide us with your valuable insights, making it possible for us to tailor our website to better suit your needs and ensure your comfort while interacting with our page. Thank you for your participation, and we look forward to continuously improving our services with your help!
-</p>
+  Welcome to EcoBloom!
+  As a small, growing business, we know there may be a few bumps along the way. If you spot any issues or have suggestions, we’d love to hear from you! Your feedback helps us improve your experience. Thanks for being here!</p>
+</div>
 <hr>
+
+
     <form  
     action="https://form-to-email.steam-center.workers.dev/"
     method="post"
@@ -44,13 +51,18 @@ Feedback Form
       <label class=" text-deco-600 " for="fname">pronouns:</label><br>
      <input class="text-deco-600 bg-amber-50 rounded-2xl" type="text"  name="pronouns"><br>
      <br>
+
      <hr>
+
+<div class="bg-deco-300  w-full ">
      <h1  class=" text-deco-800 text-2xl ">
-      Rate your experience with EcoBloom's website in each of the following categories, we would like to know your thoughts on the website and would appreciate your feedback
+      Rate your experience with EcoBloom's website in each of the following categories, 
      </h1>
+     </div>
      <br>
      <br>
      <br>
+     <div class="bg-deco-100  w-full">
      <h1 class="grid grid-cols-1 gap-2 text-center bg-deco-300 rounded-3xl font-medium">
       The following boxes go from
       Strongly Agree,
@@ -61,6 +73,7 @@ Feedback Form
         disagree
      </h1>
      <br>
+    
     <div class="grid grid-cols-3 gap-2">
      <div class=" bg-deco-50 text-deco-600 col-span-2 p-3 rounded"> I feel satisfied with This website function </div> 
     <div class=" bg-deco-300 text-deco-600 p-3 rounded"> 
@@ -144,7 +157,9 @@ Feedback Form
             <input type="checkbox" id="Strongly_disagree" name="returning_customers" value="Strongly_disagree">  </div>
             <br>
             <br>
+          </div>
             <br>
+          
 <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-deco-900 bg-deco-50 rounded-lg  border dark:border-deco-600 dark:placeholder-deco-400dark:focus:border-deco-500" placeholder="Write your thoughts here..."></textarea>
 <br>
 
@@ -158,6 +173,7 @@ Feedback Form
             
   
     </div>
+  
     </form><form action=""></form>
 </body>
 </html>
